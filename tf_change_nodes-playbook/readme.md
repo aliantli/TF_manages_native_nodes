@@ -27,6 +27,7 @@ tencentcloud_kubernetes_native_node_pool.kubernetes_native_node_pool: Modificati
 Apply complete! Resources: 0 added, 1 changed, 0 destroyed.
 ```
 ### 验证
+前往 控制台-->集群-->节点管理进行查看
 [<img width="838" height="483" alt="企业微信截图_dbe2b0ec-4144-49c7-bf4a-ce36bdfcb833" src="https://github.com/user-attachments/assets/d7cde067-4044-4404-aa6f-fc9de9c84496" />
 ](https://github.com/aliantli/TF_manages_native_nodes/blob/816a1cd2144326f794b2dfa1e384c872c0436d83/tf_change_nodes-playbook/image/Expansion.md)
 ## 缩容
@@ -46,6 +47,7 @@ tencentcloud_kubernetes_native_node_pool.kubernetes_native_node_pool: Modificati
 Apply complete! Resources: 0 added, 1 changed, 0 destroyed.
 ```
 ### 验证
+前往 控制台-->集群-->节点管理进行查看<br>
 [<img width="444" height="237" alt="Clipboard_Screenshot_1753776117" src="https://github.com/user-attachments/assets/3127a7f2-4053-4072-b56a-2a20985d2429" />
 ](https://github.com/aliantli/TF_manages_native_nodes/blob/5dd50d1fc0c573e6bae66c86e2c974bbd2144d62/tf_change_nodes-playbook/image/Expansion.md)
 
