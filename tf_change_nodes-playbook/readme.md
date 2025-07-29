@@ -9,10 +9,14 @@
 1.已有tke集群本操作验证是在已有集群里创建原生节点池
 测试集群id：cls-mhpmyfrs<br>
 tf原生节点字段说明：[Terraform Registry](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/latest/docs/resources/kubernetes_native_node_pool)<br>
-2,提前在工作目录创建好nodepool_native.tf和provider.tf文件
-3.创建原生节点
+2。提前在工作目录创建好nodepool_native.tf和provider.tf文件
+3.初始化
+terraform init
+4.创建原生节点
 ```
-[root@VM-35-179-tlinux  terraform]# terraform apply    
+[root@VM-35-179-tlinux  terraform]# terraform apply
+tencentcloud_kubernetes_native_node_pool.kubernetes_native_node_pool: Creation complete after 1s [id=cls-mhpmyfrs#np-b34998q6]
+Apply complete! Resources: 1 added, 0 changed, 0 destroyed.   
 ```
 # 快速开始
 ## 扩容
