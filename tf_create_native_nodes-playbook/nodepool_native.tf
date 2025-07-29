@@ -37,7 +37,7 @@ tags {                         #标签
 
     enable_autoscaling       = false      #是否开启自动伸缩，false为关闭
     host_name_pattern        = null
-    replicas                 = 1                #初始节点池期望节点数
+    replicas=1                #初始节点池期望节点数
     machine_type             = "Native"     #节点类型
 
     system_disk {                    #定义节点的操作系统磁盘类型和容量
