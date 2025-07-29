@@ -6,12 +6,7 @@
 2.基于创建的节点池，调整期望个数为3，查看是否扩容3个节点<br>
 3.基于创建的节点池，调整期望个数为0，查看是否缩容到没有节点<br>
 # 准备阶段
-1.已有tke集群本操作验证是在已有集群里创建原生节点池
-测试集群id：cls-mhpmyfrs<br>
-tf原生节点字段说明：[Terraform Registry](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/latest/docs/resources/kubernetes_native_node_pool)<br>
-2。提前在工作目录创建好nodepool_native.tf和provider.tf文件
-3.初始化
-terraform init
+tf_create_native_nodes-playbook
 4.创建原生节点
 ```
 [root@VM-35-179-tlinux  terraform]# terraform apply
