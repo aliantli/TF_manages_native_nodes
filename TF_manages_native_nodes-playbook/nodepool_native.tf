@@ -1,5 +1,5 @@
 ##注解部分为主要配置
-resource "tencentcloud_kubernetes_native_node_pool" "native_nodepool_cvm" {
+resource "tencentcloud_kubernetes_native_node_pool" "kubernetes_native_node_pool" {
   name                = "native"
   cluster_id          = "cls-mhpmyfrs"   ##集群id
   type                = "Native"        ##节点类型
