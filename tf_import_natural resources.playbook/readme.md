@@ -1,5 +1,5 @@
 # 背景
-在生成环境中，如果terraform state被删除(或者terraform.tfstate)删除，则不会保留记录，可以通过命令来导入对应的资源
+在生产环境中，如果terraform state被删除(或者terraform.tfstate)删除，则不会保留记录，可以通过命令来导入对应的资源
 # 准备阶段
 1.创建好原生节点<br>
 详情可参考:[tf_create_native_nodes-playbook](https://github.com/aliantli/TF_manages_native_nodes/tree/95a38fcc6a3a51e6503600ab0a52b0903382a5cf/tf_create_native_nodes-playbook)<br>
