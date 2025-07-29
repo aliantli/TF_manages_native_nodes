@@ -25,8 +25,13 @@ tf原生节点字段说明：[Terraform Registry](https://registry.terraform.io/
 ```
 ### 创建原生节点
 ```
-[root@VM-35-179-tlinux ~]# terraform apply
+[root@VM-35-179-tlinux ~]# terraform apply        #出现下面内容即为成功
+tencentcloud_kubernetes_native_node_pool.kubernetes_native_node_pool: Creation complete after 1s [id=cls-mhpmyfrs#np-b34998q6]
+Apply complete! Resources: 1 added, 0 changed, 0 destroyed.
 ```
+# 验证
+前往控制台->节点管理查看
+
     
 
 
