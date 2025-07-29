@@ -18,6 +18,7 @@ total 16
 ### 导入恢复
   ```
 [root@VM-35-48-tlinux terraform]# terraform import tencentcloud_kubernetes_native_node_pool.kubernetes_native_node_pool cls-mhpmyfrs#np-fgh585yk  #出现“Import successful!”为导入成功
+
 tencentcloud_kubernetes_native_node_pool.kubernetes_native_node_pool: Importing from ID "cls-mhpmyfrs#f"...
 tencentcloud_kubernetes_native_node_pool.kubernetes_native_node_pool: Import prepared!
   Prepared tencentcloud_kubernetes_native_node_pool for import
