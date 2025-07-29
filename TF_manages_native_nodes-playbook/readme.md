@@ -109,7 +109,17 @@ runtime_root_dir   = "/var/lib/containerd"
 }
 
 ```
-
+# 初始化工作目录
+```
+#到工作目录执行   
+[root@VM-35-179-tlinux ~]# terraform init
+#如果provider.tf里的版本比较高，可以使用如下命令。正常provider.tf里如果没有设置version，会根据terraform下载的当时版本来初始化
+[root@VM-35-179-tlinux ~]# terraform init -upgrade
+```
+# 创建原生节点
+```
+[root@VM-35-179-tlinux ~]# terraform apply
+```
     
 
 
