@@ -27,6 +27,8 @@ tencentcloud_kubernetes_native_node_pool.kubernetes_native_node_pool: Modificati
 Apply complete! Resources: 0 added, 1 changed, 0 destroyed.
 ```
 ### 验证
+[<img width="838" height="483" alt="企业微信截图_dbe2b0ec-4144-49c7-bf4a-ce36bdfcb833" src="https://github.com/user-attachments/assets/d7cde067-4044-4404-aa6f-fc9de9c84496" />
+](https://github.com/aliantli/TF_manages_native_nodes/blob/816a1cd2144326f794b2dfa1e384c872c0436d83/tf_change_nodes-playbook/image/Expansion.md)
 ## 缩容
 ### 更改期望
 ```
