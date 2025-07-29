@@ -48,7 +48,6 @@ Apply complete! Resources: 0 added, 1 changed, 0 destroyed.
 ```
 ### 验证
 前往 控制台-->集群-->节点管理进行查看<br>
-[<img width="444" height="237" alt="Clipboard_Screenshot_1753776117" src="https://github.com/user-attachments/assets/3127a7f2-4053-4072-b56a-2a20985d2429" />
-](https://github.com/aliantli/TF_manages_native_nodes/blob/5dd50d1fc0c573e6bae66c86e2c974bbd2144d62/tf_change_nodes-playbook/image/Expansion.md)
+[<img width="879" height="478" alt="企业微信截图_38d25747-b4f5-4945-b2a7-8a5948729a73" src="https://github.com/user-attachments/assets/fbcbf298-91da-4779-b5c4-b6d3eb4886b5" />](https://github.com/aliantli/TF_manages_native_nodes/blob/5dd50d1fc0c573e6bae66c86e2c974bbd2144d62/tf_change_nodes-playbook/image/Expansion.md)
 
 
