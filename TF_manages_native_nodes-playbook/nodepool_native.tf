@@ -30,8 +30,8 @@ tags {                         #标签
     }
     instance_charge_type     = "POSTPAID_BY_HOUR"    ##按量计费，其他计费模式可能会导致创建节点时卡在第一步
     instance_types           = ["SA2.MEDIUM2"]    ##机器类型
-    security_group_ids       = [tencentcloud_security_group.baseline_sg.id]    ##安全组id
-    subnet_ids               = ["<sub-id>"]    ##子网id
+    security_group_ids       = ["sg-ephmfdsf"]    ##安全组id
+    subnet_ids               = ["subnet-mw0fqo4"]    ##子网id
     auto_repair              = true  #是否开启自愈，需要设置自愈策略
     health_check_policy_name = null  #自愈策略id，自愈策略需要在控制台事先创建好
 
