@@ -7,7 +7,7 @@
 3.基于创建的节点池，调整期望个数为0，查看是否缩容到没有节点<br>
 # 准备阶段
 创建好原生节点<br>
-详情可参考:[tf_create_native_nodes-playbook](https://github.com/aliantli/TF_manages_native_nodes/tree/95a38fcc6a3a51e6503600ab0a52b0903382a5cf/tf_create_native_nodes-playbook)
+详情可参考:[tf_create_native_nodes-playbook](./../tf_create_native_nodes-playbook)
 
 
 # 快速开始
