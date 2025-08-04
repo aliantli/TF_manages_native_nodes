@@ -29,7 +29,7 @@ Import successful!
 The resources that were imported are shown above. These resources are now in
 your Terraform state and will henceforth be managed by Terraform.
 ```
-### 再次查看当前目录
+# 验证
 ```[root@VM-35-48-tlinux terraform]# ll
 total 16
 -rw-r--r-- 1 root root 3357 Jul 29 17:00 nodepool_native.tf
