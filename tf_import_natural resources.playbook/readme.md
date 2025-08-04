@@ -1,7 +1,7 @@
 # 背景
 在生产环境中，如果terraform state被删除(或者terraform.tfstate)删除，则不会保留记录，本文针对该种情况演示通过命令来导入对应的资源以达到恢复被删除的文件
 # 准备阶段
-1.创建好原生节点，具体操作可参考:[tf_create_native_nodes-playbook](./../tf_create_native_nodes-playbook)<br>
+1.创建好原生节点，具体操作可参考:[tf_create_native_nodes-playbook](./../tf_create_native_nodes-playbook){:target="_blank"}<br>
 2.执行下列命令模拟误删tfstate文件
 ```
 [root@VM-35-48-tlinux terraform]# rm terraform.tfstate*
