@@ -3,7 +3,7 @@ terraform {
     tencentcloud = {
       source = "tencentcloudstack/tencentcloud"
       # 通过version指定版本
-      version = ">=1.81.133"  #">="为指定版本 “～>"为指定最低版本
+      version = ">=1.81.133"  #">="为指定版本 “～>"匹配指定版本及兼容的次版本/修订版本​
     }
   }
 }
