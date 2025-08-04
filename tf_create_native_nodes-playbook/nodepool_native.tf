@@ -30,12 +30,12 @@ tags {                         #标签
     }
     instance_charge_type     = "POSTPAID_BY_HOUR"    ##按量计费，其他计费模式可能会导致创建节点时卡在第一步
     instance_types           = ["SA2.MEDIUM2"]    ##机器类型
-    security_group_ids       = ["sg-ephmfdsf"]    ##安全组id
-    subnet_ids               = ["subnet-mw0fqo4"]    ##子网id
+    security_group_ids       = ["sg-ephmfdsf"]    ##安全组id,更改为自己已有安全组id
+    subnet_ids               = ["subnet-mw0fqo4"]    ##子网id，更改为自己已有子网id
     auto_repair              = true  #是否开启自愈，需要设置自愈策略
     health_check_policy_name = null  #自愈策略id，自愈策略需要在控制台事先创建好
 
-    enable_autoscaling       = false      #是否开启自动伸缩，false为关闭
+    enable_autoscaling       = false      #是否开启自动伸缩，false为关闭，true为开启
     host_name_pattern        = null
     replicas=1                #初始节点池期望节点数
     machine_type             = "Native"     #节点类型
@@ -52,7 +52,7 @@ management {
 kubelet_args      = ["allowed-unsafe-sysctls=net.core.somaxconn"]  #传递给 kubelet 的启动参数需符合 Kubernetes 规范
     lifecycle {
       pre_init  = "ZWNobyBoZWxsb3dvcmxk"  #节点初始化前执行的脚本（Base64 编码）
-      post_init = "ZWNobyBoZWxsb3dvcmxk"  #节点初始化后执行的脚本（Base64 编码）
+      post_init = "ZWNobyBoZWxsb3dvcmxk"  #节点初始化后执行的脚本（Base64 编码）意为“echo helloworld”
     }
 runtime_root_dir   = "/var/lib/containerd"
 
