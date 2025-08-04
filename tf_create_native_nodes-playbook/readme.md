@@ -10,7 +10,7 @@ export TF_LOG_PATH=./terraform.log
 2.注意terraform里原生节点池文档里有一些字段是forenew属性，比如计费字段charge_type，tf文件里该字段修改会导致整个节点池删除重建。创建节点池的时候把这些forcenew字段确认好，之后执行terraform apply的tf文件不要改动这些字段
 
 # 准备
-1.已有tke集群本操作验证是在已有集群里创建原生节点池<br>
+1.已有tke集群，本操作验证是在已有集群里创建原生节点池<br>
 2.测试集群id：cls-mhpmyfrs<br>
 3.在工作目录创建好nodepool_native.tf和provider.tf文件<br>
 4.tf原生节点字段说明：[Terraform Registry](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/latest/docs/resources/kubernetes_native_node_pool)
