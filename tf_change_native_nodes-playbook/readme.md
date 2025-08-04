@@ -14,7 +14,7 @@
 ## 扩容
 ### 更改期望
 ```
-[root@VM-35-179-tlinux  terraform]#  sed -i 's/replicas=1/replicas=3/g' nodepool_native.tf
+[root@VM-35-179-tlinux  terraform]#  sed -i 's/replicas=1/replicas=3/g' nodepool_native.tf    #replicas=1原始期望、replicas=3更改后的期望
 ```
 ### 更新节点池
 ```
@@ -29,13 +29,13 @@ Apply complete! Resources: 0 added, 1 changed, 0 destroyed.
 ### 验证
 ```
 #显示改节点池内有三个节点
-[root@VM-35-48-tlinux terraform]# kubectl get nodes -l test11=test21 --no-headers | wc -l
+[root@VM-35-48-tlinux terraform]# kubectl get nodes -l test11=test21 --no-headers | wc -l    
 3
 ```
 ## 缩容
 ### 更改期望
 ```
-[root@VM-35-179-tlinux  terraform]#  sed -i 's/replicas=3/replicas=0/g' nodepool_native.tf
+[root@VM-35-179-tlinux  terraform]#  sed -i 's/replicas=3/replicas=0/g' nodepool_native.tf    #replicas=3原始期望、replicas=0更改后的期望
 ```
 
 ### 更新节点池
@@ -50,7 +50,7 @@ Apply complete! Resources: 0 added, 1 changed, 0 destroyed.
 ```
 ### 验证
 ```
-#显示改节点池没有节点
+#显示该节点池内节点数量为零
 [root@VM-35-48-tlinux ~]# kubectl get nodes -l node-pool=native --no-headers | wc -l      
 0
 ```
