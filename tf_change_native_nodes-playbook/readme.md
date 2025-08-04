@@ -29,7 +29,7 @@ Apply complete! Resources: 0 added, 1 changed, 0 destroyed.
 ### 验证
 ```
 #显示改节点池内有三个节点
-[root@VM-35-48-tlinux terraform]# kubectl get nodes -l test11=test21 --no-headers | wc -l    
+[root@VM-35-48-tlinux terraform]# kubectl get nodes -l test11=test21 --no-headers | wc -l    #test11=test21为创建节点是的lables标签
 3
 ```
 ## 缩容
@@ -51,7 +51,7 @@ Apply complete! Resources: 0 added, 1 changed, 0 destroyed.
 ### 验证
 ```
 #显示该节点池内节点数量为零
-[root@VM-35-48-tlinux ~]# kubectl get nodes -l node-pool=native --no-headers | wc -l      
+[root@VM-35-48-tlinux ~]# kubectl get nodes -l test11=test21 --no-headers | wc -l      
 0
 ```
 
