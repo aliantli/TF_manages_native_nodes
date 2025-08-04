@@ -31,7 +31,7 @@ Apply complete! Resources: 1 added, 0 changed, 0 destroyed.
 # 验证
 前往控制台->节点管理查看<br>
 [<img width="496" height="282" alt="Clipboard_Screenshot_1753772892" src="https://github.com/user-attachments/assets/4195e6dc-62e9-4632-8e80-7dba01917b8a" />
-](https://github.com/aliantli/TF_manages_native_nodes/blob/e7efe972fc8fae65cea2909cc04bac197e08acd2/tf_create_native_nodes-playbook/image/verify.md)
+](./image)
 # 节点池资源清理  
 ```
 [root@VM-35-179-tlinux ~]# terraform destroy #出现以下内容为删除成功
